@@ -1,0 +1,8 @@
+psycopg[binary,pool]
+pydantic-settings
+python-dotenv
+pandas
+anthropic
+pydantic
+fastapi
+uvicorn

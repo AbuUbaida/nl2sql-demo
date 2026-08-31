@@ -1,0 +1,16 @@
+[project]
+name = "nl2sql-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=1.1.0",
+    "fastapi>=0.141.1",
+    "pandas>=3.0.5",
+    "psycopg[binary,pool]>=3.3.4",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.15.0",
+    "python-dotenv>=1.2.3",
+    "uvicorn>=0.52.4",
+]
