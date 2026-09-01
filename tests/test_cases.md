@@ -84,6 +84,6 @@ The model still grouped and ranked on it correctly. This confirms that descripti
 
 ## Next
 
-1. Expand to 40–50 cases covering the full question surface.
-2. Obtain gold-standard question/SQL pairs from the client and report a real accuracy figure.
-3. Build a replay harness so a prompt change can be re-scored across the whole suite in one command instead of by hand.
+1. Expanding to 40–50 cases covering the full question surface.
+2. Obtaining gold-standard question/SQL pairs from the client and report a real accuracy figure.
+3. Building a replay harness so a prompt change can be re-scored across the whole suite in one command instead of by hand.
