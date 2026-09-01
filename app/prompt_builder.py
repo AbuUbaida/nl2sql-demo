@@ -9,7 +9,7 @@ import math
 from app.schema_reader import TableSchema, render_schema_for_prompt
 
 
-PROMPT_VERSION = "v1.0"
+PROMPT_VERSION = "v2.0"
 
 MAX_QUESTION_CHARS = 500
 
@@ -67,6 +67,8 @@ SQL_RULES: list[str] = [
     "exact value, use ILIKE '%term%' even on a listed column. And add an "
     "assumption noting the choice."
  
+    "Write the SQL in one single line without line breaks. Do not use multi-line SQL.",    
+
     "Reply with the JSON object only. No markdown code fences, no text before "
     "or after it.",
 ]
